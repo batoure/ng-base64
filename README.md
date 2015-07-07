@@ -1,5 +1,5 @@
 # Angular [Base64](https://en.wikipedia.org/wiki/Base64)
-An angular factory implementation of the javascript base64 algorithm ias proposed by [ncerminara](https://github.com/ncerminara)
+An angular factory implementation of the javascript base64 algorithm as proposed by [ncerminara](https://github.com/ncerminara)
 
 You can view the original gist [here](https://gist.github.com/ncerminara/11257943#file-base64-js])
 
