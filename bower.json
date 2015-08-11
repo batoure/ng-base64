@@ -1,0 +1,22 @@
+{
+  "name": "angular-base64",
+  "main": "angular-base64.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/batoure/angular-base64",
+  "authors": [
+    "Batoure <batoure@digitalminion.com>"
+  ],
+  "description": "angular library for base64",
+  "keywords": [
+    "angular",
+    "base64"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
