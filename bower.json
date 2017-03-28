@@ -1,7 +1,7 @@
 {
   "name": "angular-base64",
   "main": "angular-base64.js",
-  "version": "1.0.0",
+  "version": "1.5.0",
   "homepage": "https://github.com/batoure/angular-base64",
   "authors": [
     "Batoure <batoure@digitalminion.com>"
