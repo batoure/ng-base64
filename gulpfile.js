@@ -1,7 +1,8 @@
 // including plugins
 var gulp = require('gulp')
 , uglify = require("gulp-uglify")
-, concat = require("gulp-concat");
+, concat = require("gulp-concat")
+, Server = require('karma').Server;
  
 // task
 gulp.task('minify-js', function () {
@@ -26,4 +27,14 @@ gulp.task('build-js', function () {
     gulp.src('./src/*/*.js') // path to your files
     .pipe(concat('angular-base64.js'))  // concat and name it "concat.js"
     .pipe(gulp.dest('./'));
+});
+
+/**
+ * Run test once and exit
+ */
+gulp.task('test', function (done) {
+  new Server({
+    configFile: __dirname + '/karma.conf.js',
+    singleRun: true
+  }, done).start();
 });
