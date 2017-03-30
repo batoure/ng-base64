@@ -1,3 +1,13 @@
+
+(function(){
+  'use strict';
+
+  // Prepare the 'ngBase64' module for subsequent registration of controllers and delegates
+   angular.module('ngBase64', []);
+
+
+})();
+
 (function(){
   'use strict';
 
@@ -34,7 +44,7 @@
                  } else if (isNaN(i)) {
                      a = 64
                  }
-                 t = t + _keyStr.charAt(s) + _keyStr.charAt(o) + _keyStr.charAt(u) + _keyStr.charAt(a)
+                 t = t + self._keyStr.charAt(s) + self._keyStr.charAt(o) + self._keyStr.charAt(u) + self._keyStr.charAt(a)
              }
              return t
          };
@@ -45,10 +55,10 @@
              var f = 0;
              e = e.replace(/[^A-Za-z0-9\+\/\=]/g, "");
              while (f < e.length) {
-                 s = _keyStr.indexOf(e.charAt(f++));
-                 o = _keyStr.indexOf(e.charAt(f++));
-                 u = _keyStr.indexOf(e.charAt(f++));
-                 a = _keyStr.indexOf(e.charAt(f++));
+                 s = self._keyStr.indexOf(e.charAt(f++));
+                 o = self._keyStr.indexOf(e.charAt(f++));
+                 u = self._keyStr.indexOf(e.charAt(f++));
+                 a = self._keyStr.indexOf(e.charAt(f++));
                  n = s << 2 | o >> 4;
                  r = (o & 15) << 4 | u >> 2;
                  i = (u & 3) << 6 | a;
