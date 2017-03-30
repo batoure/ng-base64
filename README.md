@@ -3,11 +3,22 @@ An angular factory implementation of the javascript base64 algorithm as proposed
 
 You can view the original gist [here](https://gist.github.com/ncerminara/11257943#file-base64-js])
 
+
+# Version 1.5 update
+I have rewritten the library to be more in line with module design in angular 1.6.
+Additionall the code has been cleaned up to allow for minification and we have build a minified version into the release.
+
 # Usage
 Add a reference to angular-base64.js in your html:
 
 ```html
  <script src="<PATH>/angular-base64.js" type="text/javascript"></script>
+```
+
+or
+
+```html
+ <script src="<PATH>/angular-base64.min.js" type="text/javascript"></script>
 ```
 
 Add a reference to ngBase64 in angular application config section:
