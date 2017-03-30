@@ -1,0 +1,30 @@
+{
+  "name": "angular-base64",
+  "version": "1.5.0",
+  "description": "Angular implementation of the base 64 algorithm",
+  "main": "angular-base64.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^2.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/batoure/angular-base64.git"
+  },
+  "keywords": [
+    "angular",
+    "base64"
+  ],
+  "author": "dataminion",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/batoure/angular-base64/issues"
+  },
+  "homepage": "https://github.com/batoure/angular-base64#readme"
+}
